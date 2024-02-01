@@ -1,9 +1,39 @@
-<h2 id="X">X</h2>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>A</title>
+</head>
+<body>
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10 bg-slate-900">
+    <div class="w-full h-auto flex flex-wrap flex-col items-center text-center">
+        <p class="text-white font-bold md:text-4xl text-center italic font-serif text-8xl"></p>
+        <div class="w-36 h-1 border-b-4 border-yellow-400 mt-2 rounded-2xl md:mt-4"></div>
+    </div>
+    <div class="h-auto w-100 flex flex-wrap flex-col items-center text-center p-10">
+    <div class="w-[101%] h-auto flex flex-wrap justify-around">
 
-<ol>
+        <div class="w-64 flex flex-col items-center mb-12 border border-white px-4 pt-6 pb-2 rounded-xl p-2 transition-transform transform hover:scale-105">
+            <img src="data:image/png;base64,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" alt="">
+          
+                <p class="text-3xl font-bold text-white mt-6"><a href="https://www.xicom.biz/careers/">Xicom Technologies</a></p>
+   
+        </div>
+
+        <div class="w-64 flex flex-col items-center mb-12 border border-white px-4 pt-6 pb-2 rounded-xl p-2 transition-transform transform hover:scale-105">
+            <img src="data:image/png;base64,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" alt="">
+            <p class="text-3xl font-bold text-white mt-6"><a href="https://xiaomi.app.param.ai/jobs/">Xiaomi</a></p>
+          
+        </div>
+
+    </div>
+    </div>
+
+</body>
+</html>
+
+<!-- 
 <li><a href="https://xiaomi.app.param.ai/jobs/">Xiaomi</a>  </li>
-<li><a href="https://www.xicom.biz/careers/">Xicom Technologies</a></li>
-</ol>
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<br>
+<li><a href="https://www.xicom.biz/careers/">Xicom Technologies</a></li> -->
